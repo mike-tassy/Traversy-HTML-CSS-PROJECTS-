@@ -30,6 +30,13 @@ ul{
     color: #FFFFFF;
 }
 
+.dark {
+    padding: 15px;
+    background:#35424a ;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* Header */
 header {
     background: #376a8a;
@@ -136,6 +143,21 @@ header a:hover {
     height: auto;
 }
 
+/* sidebar */
+aside#sidebar {
+    float: right;
+    padding: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* Main-col (article) */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+/* footer */
 footer {
     padding: 20px;
     color: white;
