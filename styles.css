@@ -150,12 +150,31 @@ aside#sidebar {
     margin-top: 10px;
 }
 
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
 /* Main-col (article) */
 article#main-col {
     float: left;
     width: 65%;
 }
 
+/* services */
+ul#services li{
+    padding: 15px;
+    list-style: none;
+    border: #cccccc solid 1px;
+    background: #a6a6a6;
+    margin-bottom: 15px;
+}
+
+#services h3 {
+    font-size: 30px;
+    color: #0a0e5d;
+    font-family: fantasy;
+}
 /* footer */
 footer {
     padding: 20px;
@@ -164,3 +183,4 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
